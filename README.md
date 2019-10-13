@@ -2,6 +2,10 @@
 
 In certain (horrible) situations you may want all of your CSS values to be `!important`. You may be making a embeddable widget, writing a component that may be used in uncontrolled environments, or generally fighting against an environment that you have no control over.
 
+The idea for this plugin came from this issue: https://github.com/cssinjs/jss/issues/209.
+
+It was originally made by myself for The Event Discovery Company's Evitt project, which included a pretty sweet embedable calendar widget. Since that project is being discontinued, I was given permission to publish and maintain the JSS libraries I wrote: this and [jss-plugin-rem-em-to-px](https://github.com/JoeDuncko/jss-plugin-rem-em-to-px).
+
 ## Install
 
 `npm install --save jss-plugin-all-important`
@@ -47,10 +51,6 @@ const jss = create({
     ]
 });
 ```
-
-The idea for this plugin came from this issue: https://github.com/cssinjs/jss/issues/209
-
-It was originally made by myself for The Event Discovery Company's Evitt project, which included a pretty sweet embedable calendar widget. Since that project is being discontinued, I was given permission to publish and maintain the JSS libraries I wrote: this and [jss-plugin-rem-em-to-px](https://github.com/JoeDuncko/jss-plugin-rem-em-to-px).
 
 
 ## API
