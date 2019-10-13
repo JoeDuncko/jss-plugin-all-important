@@ -1,0 +1,24 @@
+{
+  "name": "jss-plugin-all-important",
+  "version": "1.0.0",
+  "description": "JSS plugin for making all possible values !important",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeDuncko/jss-plugin-all-important.git"
+  },
+  "keywords": [
+    "jss",
+    "important",
+    "!important"
+  ],
+  "author": "Joe Duncko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeDuncko/jss-plugin-all-important/issues"
+  },
+  "homepage": "https://github.com/JoeDuncko/jss-plugin-all-important#readme"
+}
